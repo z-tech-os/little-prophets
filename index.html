@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="msvalidate.01" content="C5AD6FC75478C789AB853C7C9F8C9426" />
+  <meta name="google-site-verification" content="kUoNEZyaHHgk7iwT_O8pBj2s8zlIZLvoUZk-4N_OeV8" />
+  
+  <!-- Primary SEO -->
+  <title>Little Prophets | Islamic Stories of the Prophets for Kids by Mustapha Gbanie</title>
+  <meta name="description" content="Beautiful, kid-friendly full stories of Islamic Prophets (Adam, Nuh, Ibrahim, Yusuf, Musa, Isa, Muhammad ﷺ). Simple language, playful tone, and clear moral lessons. Created with love by Mustapha Gbanie for children and parents who want good character.">
+  <meta name="keywords" content="Mustapha Gbanie, Islamic stories for kids, prophets stories, Quran stories children, Prophet Adam, Prophet Nuh, Prophet Ibrahim, Prophet Muhammad for kids, moral stories Islam, Islamic parenting, character building kids">
+  <meta name="author" content="Mustapha Gbanie">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://z-tech-os.github.io/little-prophets/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://z-tech-os.github.io/little-prophets/">
+  <meta property="og:title" content="Little Prophets | Islamic Stories for Kids by Mustapha Gbanie">
+  <meta property="og:description" content="Full, joyful stories of the Prophets told in simple language so children laugh, learn, and grow good character. Created by Mustapha Gbanie.">
+  <meta property="og:image" content="https://z-tech-os.github.io/little-prophets/og-image.svg">
+  <meta property="og:site_name" content="Little Prophets by Mustapha Gbanie">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Little Prophets | Islamic Stories for Kids">
+  <meta name="twitter:description" content="Kid-friendly full stories of the Prophets with clear moral lessons. By Mustapha Gbanie.">
+  <meta name="twitter:image" content="https://z-tech-os.github.io/little-prophets/og-image.svg">
+
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#B71C1C">
+  <meta name="msapplication-TileColor" content="#B71C1C">
+
+  <!-- Favicon (placeholder) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect x='10' y='16' width='44' height='42' rx='3' fill='%231a1a1a'/><rect x='10' y='16' width='44' height='12' fill='%23333'/><rect x='24' y='32' width='16' height='20' fill='%23C9A227'/><rect x='10' y='16' width='44' height='4' fill='%23C9A227'/></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== LOADING SCREEN ========== -->
+  <div id="loader">
+    <div class="loader-cherry">
+      <!-- Simple cherry SVG -->
+      <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="35" cy="60" r="22" fill="#B71C1C"/>
+        <circle cx="65" cy="55" r="20" fill="#D32F2F"/>
+        <path d="M35 38 Q50 10 65 35" stroke="#2E7D32" stroke-width="5" fill="none" stroke-linecap="round"/>
+        <path d="M50 20 Q60 5 70 15" stroke="#2E7D32" stroke-width="4" fill="none" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div class="loader-text">Loading beautiful stories...</div>
+  </div>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon"><svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="16" width="44" height="42" rx="3" fill="#1a1a1a"/><rect x="10" y="16" width="44" height="12" fill="#333"/><rect x="24" y="32" width="16" height="20" fill="#C9A227"/><rect x="10" y="16" width="44" height="4" fill="#C9A227"/></svg></span>
+        <span>Little <span>Prophets</span></span>
+      </a>
+
+      <nav class="nav-desktop">
+        <a href="index.html" class="active">Home</a>
+        <a href="prophets.html">All Prophets</a>
+        <a href="about.html">About</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========== MOBILE SIDEBAR ========== -->
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <a href="index.html" class="logo">
+        <span class="logo-icon"><svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="16" width="44" height="42" rx="3" fill="#1a1a1a"/><rect x="10" y="16" width="44" height="12" fill="#333"/><rect x="24" y="32" width="16" height="20" fill="#C9A227"/><rect x="10" y="16" width="44" height="4" fill="#C9A227"/></svg></span>
+        <span>Little Prophets</span>
+      </a>
+      <button class="sidebar-close" id="sidebarClose" aria-label="Close menu">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="index.html"><i class="fas fa-home"></i> Home</a>
+      <a href="prophets.html"><i class="fas fa-book-open"></i> All Prophets</a>
+      <a href="adam.html"><i class="fas fa-user"></i> Prophet Adam</a>
+      <a href="nuh.html"><i class="fas fa-ship"></i> Prophet Nuh</a>
+      <a href="ibrahim.html"><i class="fas fa-kaaba"></i> Prophet Ibrahim</a>
+      <a href="yusuf.html"><i class="fas fa-star"></i> Prophet Yusuf</a>
+      <a href="musa.html"><i class="fas fa-water"></i> Prophet Musa</a>
+      <a href="isa.html"><i class="fas fa-dove"></i> Prophet Isa</a>
+      <a href="muhammad.html"><i class="fas fa-moon"></i> Prophet Muhammad ﷺ</a>
+      <a href="about.html"><i class="fas fa-heart"></i> About & Why</a>
+    </nav>
+  </aside>
+
+  <!-- ========== MAIN ========== -->
+  <main class="main">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-badge">
+        <i class="fas fa-heart"></i> Made with love for little hearts
+      </div>
+      <h1>Stories of the <span>Prophets</span> for Kids</h1>
+      <p>
+        Full, joyful, and easy-to-understand stories of the Prophets.  
+        Read them to your children so they grow with beautiful character,  
+        courage, kindness, and trust in Allah.
+      </p>
+      <div class="hero-buttons">
+        <a href="prophets.html" class="btn btn-primary">
+          <i class="fas fa-book-open"></i> Start Reading Stories
+        </a>
+        <a href="about.html" class="btn btn-outline">
+          <i class="fas fa-info-circle"></i> Why This Site Exists
+        </a>
+      </div>
+    </section>
+
+    <!-- Featured Prophets -->
+    <section>
+      <div class="section-title">
+        <h2>Meet the Prophets</h2>
+        <p>Click any card to read the full story in simple, playful language</p>
+      </div>
+
+      <div class="prophets-grid">
+
+        <!-- Adam -->
+        <article class="prophet-card">
+          <div class="prophet-card-image">
+            <div class="icon-wrap"><i class="fas fa-user"></i></div>
+          </div>
+          <div class="prophet-card-body">
+            <h3>Prophet Adam</h3>
+            <div class="arabic">آدم عليه السلام</div>
+            <p>The first human and the first Prophet. Learn how Allah created him and taught him the names of everything.</p>
+            <div class="prophet-card-footer">
+              <span class="tag">First Prophet</span>
+              <a href="adam.html" class="btn btn-sm btn-primary">Read Story</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Nuh -->
+        <article class="prophet-card">
+          <div class="prophet-card-image">
+            <div class="icon-wrap"><i class="fas fa-ship"></i></div>
+          </div>
+          <div class="prophet-card-body">
+            <h3>Prophet Nuh</h3>
+            <div class="arabic">نوح عليه السلام</div>
+            <p>The Prophet who built a big boat and saved the believers when the great flood came.</p>
+            <div class="prophet-card-footer">
+              <span class="tag">The Flood</span>
+              <a href="nuh.html" class="btn btn-sm btn-primary">Read Story</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Ibrahim -->
+        <article class="prophet-card">
+          <div class="prophet-card-image">
+            <div class="icon-wrap"><i class="fas fa-kaaba"></i></div>
+          </div>
+          <div class="prophet-card-body">
+            <h3>Prophet Ibrahim</h3>
+            <div class="arabic">إبراهيم عليه السلام</div>
+            <p>The friend of Allah who smashed the idols and was ready to sacrifice for Allah’s sake.</p>
+            <div class="prophet-card-footer">
+              <span class="tag">Friend of Allah</span>
+              <a href="ibrahim.html" class="btn btn-sm btn-primary">Read Story</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Yusuf -->
+        <article class="prophet-card">
+          <div class="prophet-card-image">
+            <div class="icon-wrap"><i class="fas fa-star"></i></div>
+          </div>
+          <div class="prophet-card-body">
+            <h3>Prophet Yusuf</h3>
+            <div class="arabic">يوسف عليه السلام</div>
+            <p>The beautiful story of a boy with an amazing dream who became a great leader in Egypt.</p>
+            <div class="prophet-card-footer">
+              <span class="tag">The Dreamer</span>
+              <a href="yusuf.html" class="btn btn-sm btn-primary">Read Story</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Musa -->
+        <article class="prophet-card">
+          <div class="prophet-card-image">
+            <div class="icon-wrap"><i class="fas fa-water"></i></div>
+          </div>
+          <div class="prophet-card-body">
+            <h3>Prophet Musa</h3>
+            <div class="arabic">موسى عليه السلام</div>
+            <p>The Prophet who spoke to Allah and led his people through the sea with a mighty miracle.</p>
+            <div class="prophet-card-footer">
+              <span class="tag">The Sea Split</span>
+              <a href="musa.html" class="btn btn-sm btn-primary">Read Story</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Ayyub -->
+        <article class="prophet-card">
+          <div class="prophet-card-image">
+            <div class="icon-wrap"><i class="fas fa-heart"></i></div>
+          </div>
+          <div class="prophet-card-body">
+            <h3>Prophet Ayyub</h3>
+            <div class="arabic">أيوب عليه السلام</div>
+            <p>The Prophet of amazing patience who stayed thankful even in the hardest tests.</p>
+            <div class="prophet-card-footer">
+              <span class="tag">Patience</span>
+              <a href="ayyub.html" class="btn btn-sm btn-primary">Read Story</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Yunus -->
+        <article class="prophet-card">
+          <div class="prophet-card-image">
+            <div class="icon-wrap"><i class="fas fa-fish"></i></div>
+          </div>
+          <div class="prophet-card-body">
+            <h3>Prophet Yunus</h3>
+            <div class="arabic">يونس عليه السلام</div>
+            <p>The Prophet who was swallowed by a huge fish and was saved by a beautiful dua.</p>
+            <div class="prophet-card-footer">
+              <span class="tag">The Whale</span>
+              <a href="yunus.html" class="btn btn-sm btn-primary">Read Story</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Dawud -->
+        <article class="prophet-card">
+          <div class="prophet-card-image">
+            <div class="icon-wrap"><i class="fas fa-crown"></i></div>
+          </div>
+          <div class="prophet-card-body">
+            <h3>Prophet Dawud</h3>
+            <div class="arabic">داود عليه السلام</div>
+            <p>The brave young Prophet who defeated a giant and was given a beautiful voice.</p>
+            <div class="prophet-card-footer">
+              <span class="tag">Courage</span>
+              <a href="dawud.html" class="btn btn-sm btn-primary">Read Story</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Sulaiman -->
+        <article class="prophet-card">
+          <div class="prophet-card-image">
+            <div class="icon-wrap"><i class="fas fa-dove"></i></div>
+          </div>
+          <div class="prophet-card-body">
+            <h3>Prophet Sulaiman</h3>
+            <div class="arabic">سليمان عليه السلام</div>
+            <p>The wise Prophet who could speak to animals and controlled the wind by Allah’s permission.</p>
+            <div class="prophet-card-footer">
+              <span class="tag">Wisdom</span>
+              <a href="sulaiman.html" class="btn btn-sm btn-primary">Read Story</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Isa -->
+        <article class="prophet-card">
+          <div class="prophet-card-image">
+            <div class="icon-wrap"><i class="fas fa-dove"></i></div>
+          </div>
+          <div class="prophet-card-body">
+            <h3>Prophet Isa</h3>
+            <div class="arabic">عيسى عليه السلام</div>
+            <p>The pure Prophet born in a special way who healed the sick and brought a clear message.</p>
+            <div class="prophet-card-footer">
+              <span class="tag">The Pure One</span>
+              <a href="isa.html" class="btn btn-sm btn-primary">Read Story</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Muhammad -->
+        <article class="prophet-card">
+          <div class="prophet-card-image">
+            <div class="icon-wrap"><i class="fas fa-moon"></i></div>
+          </div>
+          <div class="prophet-card-body">
+            <h3>Prophet Muhammad ﷺ</h3>
+            <div class="arabic">محمد صلى الله عليه وسلم</div>
+            <p>The final Messenger, the best example for all of us in kindness, honesty, and patience.</p>
+            <div class="prophet-card-footer">
+              <span class="tag">The Last Prophet</span>
+              <a href="muhammad.html" class="btn btn-sm btn-primary">Read Story</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="hero" style="margin-top: 20px;">
+      <h2 style="font-size: 1.8rem; margin-bottom: 12px;">Read. Learn. Grow Beautiful Character.</h2>
+      <p>These stories are written so children understand quickly and parents feel proud to share them.</p>
+      <a href="prophets.html" class="btn btn-primary">
+        <i class="fas fa-child"></i> Explore All Stories
+      </a>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo">
+          <span class="logo-icon"><svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="16" width="44" height="42" rx="3" fill="#1a1a1a"/><rect x="10" y="16" width="44" height="12" fill="#333"/><rect x="24" y="32" width="16" height="20" fill="#C9A227"/><rect x="10" y="16" width="44" height="4" fill="#C9A227"/></svg></span>
+          <span>Little Prophets</span>
+        </div>
+        <p>Simple, joyful, full stories of the Prophets for children. Created with love and hope by Mustapha Gbanie.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="prophets.html">All Prophets</a>
+        <a href="about.html">About the Creator</a>
+        <a href="muhammad.html">Prophet Muhammad ﷺ</a>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p><i class="fas fa-user"></i> Mustapha Gbanie</p>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:zyvora490@gmail.com">zyvora490@gmail.com</a></p>
+        <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/23231762892" target="_blank" rel="noopener">+232 31 762892</a></p>
+        <p><i class="fas fa-map-marker-alt"></i> Sierra Leone, Kenema</p>
+        <p><i class="fab fa-facebook"></i> <a href="https://www.facebook.com/profile.php?id=61592107724183" target="_blank" rel="noopener">Facebook</a></p>
+        <p style="margin-top:12px; font-size:0.85rem;">No backend • Pure HTML, CSS & JS</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Little Prophets • Created by <strong>Mustapha Gbanie</strong> with love for every child.</p>
+      <p style="margin-top:6px; font-size:0.85rem;">May Allah make these stories a light for many hearts. Ameen.</p>
+    </div>
+  </footer>
+
+  <!-- ========== OFFLINE POPUP ========== -->
+  <div class="popup-overlay" id="offlinePopup">
+    <div class="popup">
+      <button class="popup-close" data-close-popup aria-label="Close">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="popup-icon">
+        <i class="fas fa-cloud-download-alt"></i>
+      </div>
+      <h3>Read Offline Anytime!</h3>
+      <p>
+        Want these beautiful stories even without internet?  
+        Click the button below to make this site work offline on your device.
+      </p>
+      <div class="popup-buttons">
+        <button class="btn btn-primary" id="downloadOfflineBtn">
+          <i class="fas fa-download"></i> Enable Offline Mode
+        </button>
+        <button class="btn btn-outline" data-close-popup>
+          Maybe Later
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="main.js"></script>
+<a href="https://wa.me/23231762892" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+</body>
+</html>
